@@ -1,0 +1,24 @@
+<section id="promo" class="promo section offset-header">
+    <div class="container text-center">
+        <h2 class="title">Py<span class="highlight">Tables</span></h2>
+        <p class="intro">{{site.description}}</p>
+        <div class="btns">
+            <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/" target="_blank">Demo</a>
+            <a class="btn btn-cta-primary" href="http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/" target="_blank">Download</a>
+        </div>
+        <ul class="meta list-inline">
+            <li><a href="#" target="{{site.github}}">View on GitHub</a></li>
+            <li><a href="https://github.com/twbs/bootstrap" target="_blank">Full Documentation</a></li>
+            <li>Created by: <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> at 3rd Wave Media</li>
+        </ul>
+    </div>
+    <div class="social-media">
+        <div class="social-media-inner container text-center">
+            <ul class="list-inline">
+                {% for badge in site.data.badges %}
+                <li><img src="{{badge}}"></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

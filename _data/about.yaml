@@ -1,0 +1,19 @@
+- short: Python and NumPy
+  icon: heart
+  text: text
+- short: Build on top of HDF5
+  icon: cog
+  text: text
+- short: C extensions
+  icon: crosshairs
+  text: text
+- short: optimizes memory and disk resources
+  icon: tablet
+  text: text
+- short: bla
+  icon: code
+  text: text
+- short: bla
+  icon: coffee
+  text: text
+

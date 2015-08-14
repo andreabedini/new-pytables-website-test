@@ -1,0 +1,24 @@
+<section id="about" class="about section">
+    <div class="container">
+        <h2 class="title text-center">What is PyTables?</h2>
+        <p class="intro ">PyTables is a package for managing
+        hierarchical datasets and designed to efficiently and easily cope
+        with extremely large amounts of data.</p>
+        <div class="row">
+            {% for item in site.data.about %}
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="icon-holder">
+                    <i class="fa fa-{{ item.icon }}"></i>
+                </div>
+                <div class="content">
+                    <h3 class="sub-title">{{ item.short }}</h3>
+                    <p>{{ item.text | markdownify }}</p>
+                </div>
+            </div>
+            {% if forloop.index == 3 %}
+            <div class="clearfix visible-md"></div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
