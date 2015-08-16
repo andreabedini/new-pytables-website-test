@@ -1,19 +1,23 @@
+- short: Built on top of HDF5
+  icon: cog
+  text: PyTables utilizes the power of HDF5, which is capable of storing exabytes of data! 
 - short: Python and NumPy
   icon: heart
-  text: text
-- short: Build on top of HDF5
-  icon: cog
-  text: text
-- short: C extensions
+  text: Use the tools you already know. PyTables relies heavily on Python and Numpy to present 
+        you with a pythonic interface to it high-performance libraries.
+- short: Indexing & Querying
   icon: crosshairs
-  text: text
-- short: optimizes memory and disk resources
+  text: We implement SQL-esque indexing and querying functionality on top HDF5 to help you 
+        squeeze the most out of your data.
+- short: Optimizes Memory and Disk Resources
   icon: tablet
-  text: text
-- short: bla
+  text: PyTables contains custom Python C extenstions the improve all aspects of dealing. Many 
+        operations are automatically parallelized for you at a very low level.
+- short: Pandas Support
   icon: code
-  text: text
-- short: bla
+  text: The wildly popular Pandas librarys uses PyTables as its HDF store.  
+- short: Easy to Install
   icon: coffee
-  text: text
+  text: PyTables packages are distributed with many package managers, such as conda, pypi, 
+        apt, and more!
 
