@@ -3,7 +3,7 @@ title: PyTables
 email: info@pytables.org
 description: > # this means to ignore newlines until "baseurl:"
     A Python package to efficiently and easily manage extremely large amounts of data.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/new-pytables-website-test" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github: https://github.com/PyTables/PyTables
 
