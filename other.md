@@ -35,12 +35,12 @@ find useful:
     [solutions](https://github.com/scopatz/scipy2012/tree/master/hdf5/sol),
     and [repository](https://github.com/scopatz/scipy2012).
 -   [An on-disk binary data
-    container](http://www.pytables.org/docs/PUG-Austin-2012-v3.pdf).
+    container]({{ site.baseurl }}/docs/PUG-Austin-2012-v3.pdf).
     Talk given at the [Austin Python
     Meetup](http://www.meetup.com/austinpython), Austin, TX, USA
     (May 2012).
 -   [Large Data Analysis with
-    Python](http://www.pytables.org/docs/LargeDataAnalysis.pdf). Seminar
+    Python]({{ site.baseurl }}/docs/LargeDataAnalysis.pdf). Seminar
     given at the [German Neuroinformatics Node](http://www.g-node.org),
     Munich, Germany (November 2010).
 -   [Highly Efficient Computations In Python: Well Beyond
@@ -63,7 +63,7 @@ find useful:
     headquarters](http://www.hdfgroup.org) in Urbana-Champaign,
     Illinois, USA (October 2007).
 -   [Finding Needles in a Huge
-    DataStack](http://www.pytables.org/docs/FindingNeedles.pdf). Talk
+    DataStack]({{ site.baseurl }}/docs/FindingNeedles.pdf). Talk
     given at the **EuroPython 2006 Conference**, held at CERN, Genève,
     Switzerland (July 2006).
 -   [Presentation given at the "HDF Workshop
@@ -90,14 +90,14 @@ Reports
 -------
 
 -   White Paper on [OPSI
-    indexes](http://www.pytables.org/docs/OPSI-indexes.pdf), explaining
+    indexes]({{ site.baseurl }}/docs/OPSI-indexes.pdf), explaining
     the powerful new indexing engine in PyTables Pro.
 -   [Performance
-    study](http://www.pytables.org/docs/NewObjectTreeCache.pdf) on how
+    study]({{ site.baseurl }}/docs/NewObjectTreeCache.pdf) on how
     the new object tree cache introduced in PyTables 1.2 can accelerate
     the opening of files with a large number of objects, while being
     quite less memory hungry.
--   [Paper version](http://www.pytables.org/docs/pycon2003-paper.pdf) of
+-   [Paper version]({{ site.baseurl }}/docs/pycon2003-paper.pdf) of
     the presentation at PyCon2003.
 
 
