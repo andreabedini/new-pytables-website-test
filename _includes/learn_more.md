@@ -1,10 +1,11 @@
----
-layout: default
-title: Other resources
----
+{::options parse_block_html="true" /}
 
-Videos
-------
+## Learn more
+{:.title.text-center}
+
+<div class="block">
+### Videos
+{:.sub-title.text-center}
 
 These are the videos of a series dedicated to introduce the main
 features of PyTables in a visual and easy to grasp manner. More videos
@@ -21,9 +22,11 @@ will be made available with the time:
     tables](http://showmedo.com/videos/video?name=1780010&fromSeriesID=178):
     Creation of tables with multidimensional and nested columns, and how
     to efficiently query them.
+</div>
 
-Presentations
--------------
+<div class="block">
+### Presentations
+{:.sub-title.text-center}
 
 Here are the slides of some presentations about PyTables that you may
 find useful:
@@ -85,9 +88,11 @@ find useful:
 -   [Talk](http://www.pytables.org/docs/pycon2003.pdf) on PyTables given
     at the **PyCon 2003 Convention** held at Washington, USA
     (March 203).
+</div>
 
-Reports
--------
+<div class="block">
+### Reports
+{:.sub-title.text-center}
 
 -   White Paper on [OPSI
     indexes]({{ site.baseurl }}/docs/OPSI-indexes.pdf), explaining
@@ -99,5 +104,4 @@ Reports
     quite less memory hungry.
 -   [Paper version]({{ site.baseurl }}/docs/pycon2003-paper.pdf) of
     the presentation at PyCon2003.
-
-
+</div>
